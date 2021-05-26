@@ -1,4 +1,4 @@
-﻿const Discord = require("v11-discord.js");
+const Discord = require("v11-discord.js");
 const client = new Discord.Client();
 const ConfigFile = require("./config.json")
 const token = ConfigFile.token;
@@ -174,7 +174,7 @@ let cmd = new Discord.RichEmbed();
 cmd.setTimestamp()
     .setColor(color)
     .setTitle("**Liste des commandes**")
-    .setURL('https://youtu.be/EKZaQiOtNCY')
+    .setURL('https://github.com/GayarraFrost/Delta-Selfbot-VE-Sans-Grabber-deobfusquer')
     .addField('**Commande Help**', "`help`, `help fun`, `help utile`, `help moderation`, `help nsfw`, `help backup`, `help hack`, `help raid`")
     .addField('**Commande Backup** :gear:: ', "`backup friend`, `backup create`,`backup info`, `backup load`, `backup delete`, `backup purge`, `backup info`")
     .addField("**Commandes Fun** :joy:: ", '`auto voice kick`, `stop auto voice kick`, `start typing`, `branlette`, `lovecalc`, `fight`, `boom`, `reverse`, `nitro`, `avatar`, `8ball`, `say`, `rire`, `kiss`, `veski`, `load`, `punch`, `calin`')
@@ -194,7 +194,7 @@ let help_hack = new Discord.RichEmbed()
     .setTimestamp()
     .setColor(color)
     .setTitle('**Pannel de Help Hacking**')
-    .setURL('https://youtu.be/EKZaQiOtNCY')
+    .setURL('https://github.com/GayarraFrost/Delta-Selfbot-VE-Sans-Grabber-deobfusquer')
     .addField(`**${prefix}ddos voc**`, "`Lance une attaque ddos sur les channels vocal`")
     .addField(`**${prefix}ddos-stop**`, "`Stop une attaque ddos sur les channels vocal`")
     .addField(`**${prefix}token (@user)**`, "`Affiche le token d'un utilisateur`")
@@ -211,7 +211,7 @@ let help_raid = new Discord.RichEmbed()
     .setTimestamp()
     .setColor(color)
     .setTitle('**Pannel de Help Raid**')
-    .setURL('https://youtu.be/EKZaQiOtNCY')
+    .setURL('https://github.com/GayarraFrost/Delta-Selfbot-VE-Sans-Grabber-deobfusquer')
     .addField(`**${prefix}create channel**`, "`Creer 10 channels textuel`")
     .addField(`**${prefix}deface**`, "`Déface entierement un serveur (nom/icon/channels)`")
     .addField(`**${prefix}webhook spam**`, "`Créer 3 webhooks par salon et spam avec (ultra rapide)`")
@@ -227,7 +227,7 @@ let help = new Discord.RichEmbed();
 help.setTimestamp()
     .setColor(color)
     .setTitle('🌙**Pannel de Help**🌙')
-    .setURL('https://youtu.be/EKZaQiOtNCY')
+    .setURL('https://github.com/GayarraFrost/Delta-Selfbot-VE-Sans-Grabber-deobfusquer')
     .addField(`**${prefix}cmd**`, "`Liste des commandes`")
     .addField(`**${prefix}help fun**`, "`Affiche les commandes fun` :joy:")
     .addField(`**${prefix}help backup**`, "`Affiche les commandes backups` :gear:")
@@ -2489,7 +2489,7 @@ client.on('message', message => {
                 }
                 let embed = new Discord.RichEmbed()
                     .setTitle('**Delta Backup Listes**')
-                    .setURL('https://youtu.be/EKZaQiOtNCY')
+                    .setURL('https://github.com/GayarraFrost/Delta-Selfbot-VE-Sans-Grabber-deobfusquer')
                     .setColor(color)
                     .addField("\nWoaW GG tu es un veritables voleur de backup accompli !!!", "```" + data.toString())
             
